@@ -21,6 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		35BB751F2C8B98AB00AAFCF6 /* UserInterfaceExample-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UserInterfaceExample-Bridging-Header.h"; path = "../../../cs7323_course_repos/UserInterfaceExample/UserInterfaceExample/UserInterfaceExample-Bridging-Header.h"; sourceTree = "<group>"; };
 		B632222E250190A40064DEB5 /* CollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
 		B6322230250191CF0064DEB5 /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
 		B689AE692500836D005FE8BE /* flipped_module_1_smith_davis_henderson.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = flipped_module_1_smith_davis_henderson.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -31,7 +32,6 @@
 		B689AE7525008373005FE8BE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B689AE7825008373005FE8BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B689AE7A25008373005FE8BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B689AE80250085C9005FE8BE /* UserInterfaceExample-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UserInterfaceExample-Bridging-Header.h"; sourceTree = "<group>"; };
 		B689AE81250085CA005FE8BE /* ImageModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImageModel.h; sourceTree = "<group>"; };
 		B689AE82250085CA005FE8BE /* ImageModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImageModel.m; sourceTree = "<group>"; };
 		B689AE8425013898005FE8BE /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
@@ -82,7 +82,7 @@
 				B689AE7525008373005FE8BE /* Assets.xcassets */,
 				B689AE7725008373005FE8BE /* LaunchScreen.storyboard */,
 				B689AE7A25008373005FE8BE /* Info.plist */,
-				B689AE80250085C9005FE8BE /* UserInterfaceExample-Bridging-Header.h */,
+				35BB751F2C8B98AB00AAFCF6 /* UserInterfaceExample-Bridging-Header.h */,
 			);
 			path = flipped_module_1_smith_davis_henderson;
 			sourceTree = "<group>";

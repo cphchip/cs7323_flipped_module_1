@@ -32,10 +32,12 @@
         // Initialize imageNames and imageDict as part of the sharedInstance
         _sharedInstance.imageNames = @[@"Bill",@"Eric",@"Jeff"];
     
+        // Temporary variables to hold the images
         UIImage *jeffImg = [UIImage imageNamed:@"Jeff.png"];
         UIImage *billImg = [UIImage imageNamed:@"Bill.png"];
         UIImage *ericImg = [UIImage imageNamed:@"Eric.png"];
         
+        // Map the imageNames indexes to keys and image variables to values
         _sharedInstance.imageDict = @{
             _sharedInstance.imageNames[0]: billImg,
             _sharedInstance.imageNames[1]: ericImg,
@@ -48,12 +50,6 @@
 
 -(UIImage*)getImageWithName:(NSString*)name
 {
-//    UIImage* image = nil;
-    
-//    image = [UIImage imageNamed:name];
-//    image = [_imageDict objectForKey:name];
-    
-//    return image;
     return [_imageDict objectForKey:name];
 }
 
@@ -62,27 +58,18 @@
 {
     NSString *imageKey = _imageNames[index];
     
-//    image = [_imageDict objectForKey:imageKey];
-    
-//    return image;
     return [_imageDict objectForKey:imageKey];
 }
 
 
 -(NSInteger)numberOfImages
 {
-//    NSInteger imgCount = [_imageDict count];
-    
-//    return imgCount;
     return [_imageDict count];
 }
 
 
 -(NSString*)getImageNameForIndex:(NSInteger)index
 {
-//    NSString *nameAtIndex = _imageNames[index];
-    
-//    return nameAtIndex;
     return _imageNames[index];
 }
 

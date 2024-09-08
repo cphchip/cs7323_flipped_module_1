@@ -5,6 +5,8 @@
 //  Created by Eric Larson on 9/3/20.
 //  Copyright © 2020 Eric Larson. All rights reserved.
 //
+// Revisions:
+// Wilma Davis: updated for Flipped Assignment 1
 
 import UIKit
 
@@ -29,7 +31,9 @@ class TableViewController: UITableViewController {
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         if section == 0 {
-            return self.imageModel.imageNames.count
+            //return self.imageModel.imageNames.count
+            //Wilma added (since property imageNames is now private
+            return self.imageModel.numberOfImages()
         }
         
         return 1
@@ -42,9 +46,12 @@ class TableViewController: UITableViewController {
             let cell = tableView.dequeueReusableCell(withIdentifier: "ImageNameCell", for: indexPath)
             
             // Configure the cell...
-            if let name = self.imageModel.imageNames[indexPath.row] as? String {
-                cell.textLabel!.text = name
-            }
+            //REMOVED:  if let name = self.imageModel.imageNames[indexPath.row] as? String {
+            
+            //Wilma updated ( since @property imageNames is now private
+            //REMOVED:  if let name = self.imageModel.getImageName(for: indexPath.row) as? String{
+                //REMOVED:   cell.textLabel!.text = name
+            cell.textLabel!.text = self.imageModel.getImageName(for: indexPath.row);
             
             return cell
         }

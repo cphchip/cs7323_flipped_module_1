@@ -321,7 +321,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = SL7HQTQV6F;
+				DEVELOPMENT_TEAM = 39H8V3866P;
 				INFOPLIST_FILE = flipped_module_1_smith_davis_henderson/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -342,7 +342,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = SL7HQTQV6F;
+				DEVELOPMENT_TEAM = 39H8V3866P;
 				INFOPLIST_FILE = flipped_module_1_smith_davis_henderson/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

@@ -10,7 +10,7 @@
 
 
 #import "ImageModel.h"
-// Wilma added:  make properties private
+// Smith,Davis,Henderson added:  make properties private
 @interface ImageModel()
 @property (strong, nonatomic) NSArray* imageNames;
 @property (strong, nonatomic) NSMutableDictionary* imageDict;
@@ -30,7 +30,6 @@
     return _sharedInstance;
 }
 
-//UPDATED by Wilma
 -(NSArray*) imageNames{
     if(!_imageNames){
         _imageNames = @[@"Bill",@"Eric",@"Jeff",@"SMU campus",@"SMU Caruth Hall",@"SMU Logo"];
@@ -48,9 +47,6 @@
 }
 
 
-//code implementations added by WIlma
-
-//NEW
 -(NSInteger)numberOfImages {
     NSInteger num=0;
     
@@ -59,7 +55,7 @@
     return num;
 }
 
-//NEW
+
 -(NSString*)getImageNameForIndex:(NSInteger)index{
     NSString* image_name = nil;
     

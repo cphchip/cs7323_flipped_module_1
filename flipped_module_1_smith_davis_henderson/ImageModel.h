@@ -6,7 +6,7 @@
 //  Copyright © 2020 Eric Larson. All rights reserved.
 //
 // Revisions:
-// Wilma Davis: updated for Flipped Assignment 1
+// Smith,Davis,Henderson: updated for Flipped Assignment 1
 
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>

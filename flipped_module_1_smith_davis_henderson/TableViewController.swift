@@ -31,8 +31,8 @@ class TableViewController: UITableViewController {
     
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         if section == 0 {
-            //return self.imageModel.imageNames.count
-            //added (since property imageNames is now private
+            //REMOVED: return self.imageModel.imageNames.count
+            //added (since property imageNames is now private)
             return self.imageModel.numberOfImages()
         }
         
@@ -47,8 +47,7 @@ class TableViewController: UITableViewController {
             
             // Configure the cell...
             //REMOVED:  if let name = self.imageModel.imageNames[indexPath.row] as? String {
-            
-            //updated ( since @property imageNames is now private
+            //added ( since @property imageNames is now private)
             if let name = self.imageModel.getImageName(for: indexPath.row) as? String{
                 cell.textLabel!.text = name
                 

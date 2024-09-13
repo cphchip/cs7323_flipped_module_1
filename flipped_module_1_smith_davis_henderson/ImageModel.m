@@ -67,7 +67,7 @@
 -(UIImage*)getImageWithName:(NSString*)name{
     UIImage* image = nil;
     
-    //Updated by Wilma: get image from Dictionary
+    //Updated:  get image from Dictionary
     //image = [UIImage imageNamed:name];
     
     image = [_imageDict objectForKey:name];
@@ -75,6 +75,11 @@
     return image;
 }
 
-
+-(UIImage*)getImageWithIndex:(NSInteger)index
+{
+    NSString *imageKey = _imageNames[index];
+    
+    return [_imageDict objectForKey:imageKey];
+}
 
 @end

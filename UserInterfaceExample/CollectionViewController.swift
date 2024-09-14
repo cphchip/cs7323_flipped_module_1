@@ -5,7 +5,7 @@
 //  Created by Eric Larson on 9/3/20.
 //  Copyright © 2020 Eric Larson. All rights reserved.
 //
-
+// Modified by: Ches Smith
 import UIKit
 
 private let reuseIdentifier = "CollectCell"
@@ -33,14 +33,14 @@ class CollectionViewController: UICollectionViewController {
 
 
     override func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        return self.imageModel.imageNames.count
+        return self.imageModel.numberOfImages()
     }
 
     override func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         
         if let cell = collectionView.dequeueReusableCell(withReuseIdentifier: reuseIdentifier, for: indexPath) as? CollectionViewCell {
             
-            if let name = self.imageModel.imageNames[indexPath.row] as? String{
+            if let name = self.imageModel.getImageName(for: indexPath.item) {
                 cell.imageView.image = self.imageModel.getImageWithName(name)
             }
             

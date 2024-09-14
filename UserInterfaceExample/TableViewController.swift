@@ -5,6 +5,7 @@
 //  Created by Eric Larson on 9/3/20.
 //  Copyright © 2020 Eric Larson. All rights reserved.
 //
+//  Modified by: Ches Smith
 
 import UIKit
 
@@ -29,7 +30,7 @@ class TableViewController: UITableViewController {
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         if section == 0 {
-            return self.imageModel.imageNames.count
+            return self.imageModel.numberOfImages()
         }
         
         return 1
@@ -42,8 +43,11 @@ class TableViewController: UITableViewController {
             let cell = tableView.dequeueReusableCell(withIdentifier: "ImageNameCell", for: indexPath)
             
             // Configure the cell...
-            if let name = self.imageModel.imageNames[indexPath.row] as? String {
+            if let name = self.imageModel.getImageName(for: indexPath.row) {
                 cell.textLabel!.text = name
+            } else {
+                // if the image is not found, display a message
+                cell.textLabel!.text = "Image not found..."
             }
             
             return cell

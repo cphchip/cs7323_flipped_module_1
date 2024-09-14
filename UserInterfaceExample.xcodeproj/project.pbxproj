@@ -18,6 +18,9 @@
 		B689AE83250085CA005FE8BE /* ImageModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B689AE82250085CA005FE8BE /* ImageModel.m */; };
 		B689AE8525013898005FE8BE /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B689AE8425013898005FE8BE /* TableViewController.swift */; };
 		CC562C3D2585525D00F6FEA4 /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC562C3C2585525D00F6FEA4 /* GameKit.framework */; };
+		FB55CF892C95DFAD006B7CF6 /* Screenshot 2024-09-14 at 9.48.43 AM.png in Resources */ = {isa = PBXBuildFile; fileRef = FB55CF862C95DFAD006B7CF6 /* Screenshot 2024-09-14 at 9.48.43 AM.png */; };
+		FB55CF8A2C95DFAD006B7CF6 /* Screenshot 2024-09-14 at 9.48.33 AM.png in Resources */ = {isa = PBXBuildFile; fileRef = FB55CF872C95DFAD006B7CF6 /* Screenshot 2024-09-14 at 9.48.33 AM.png */; };
+		FB55CF8B2C95DFAD006B7CF6 /* Screenshot 2024-09-14 at 9.48.18 AM.png in Resources */ = {isa = PBXBuildFile; fileRef = FB55CF882C95DFAD006B7CF6 /* Screenshot 2024-09-14 at 9.48.18 AM.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +39,9 @@
 		B689AE82250085CA005FE8BE /* ImageModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImageModel.m; sourceTree = "<group>"; };
 		B689AE8425013898005FE8BE /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		CC562C3C2585525D00F6FEA4 /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameKit.framework; path = System/Library/Frameworks/GameKit.framework; sourceTree = SDKROOT; };
+		FB55CF862C95DFAD006B7CF6 /* Screenshot 2024-09-14 at 9.48.43 AM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screenshot 2024-09-14 at 9.48.43 AM.png"; sourceTree = "<group>"; };
+		FB55CF872C95DFAD006B7CF6 /* Screenshot 2024-09-14 at 9.48.33 AM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screenshot 2024-09-14 at 9.48.33 AM.png"; sourceTree = "<group>"; };
+		FB55CF882C95DFAD006B7CF6 /* Screenshot 2024-09-14 at 9.48.18 AM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screenshot 2024-09-14 at 9.48.18 AM.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +76,9 @@
 		B689AE6B2500836D005FE8BE /* UserInterfaceExample */ = {
 			isa = PBXGroup;
 			children = (
+				FB55CF882C95DFAD006B7CF6 /* Screenshot 2024-09-14 at 9.48.18 AM.png */,
+				FB55CF872C95DFAD006B7CF6 /* Screenshot 2024-09-14 at 9.48.33 AM.png */,
+				FB55CF862C95DFAD006B7CF6 /* Screenshot 2024-09-14 at 9.48.43 AM.png */,
 				B689AE6C2500836D005FE8BE /* AppDelegate.swift */,
 				B689AE6E2500836D005FE8BE /* SceneDelegate.swift */,
 				B689AE702500836D005FE8BE /* ViewController.swift */,
@@ -156,6 +165,9 @@
 			files = (
 				B689AE7925008373005FE8BE /* LaunchScreen.storyboard in Resources */,
 				B689AE7625008373005FE8BE /* Assets.xcassets in Resources */,
+				FB55CF8A2C95DFAD006B7CF6 /* Screenshot 2024-09-14 at 9.48.33 AM.png in Resources */,
+				FB55CF892C95DFAD006B7CF6 /* Screenshot 2024-09-14 at 9.48.43 AM.png in Resources */,
+				FB55CF8B2C95DFAD006B7CF6 /* Screenshot 2024-09-14 at 9.48.18 AM.png in Resources */,
 				B689AE742500836D005FE8BE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
